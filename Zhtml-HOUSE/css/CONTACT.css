@@ -1,0 +1,203 @@
+/*---------通用样式-------*/
+body,ul,li,h1,h3,p,h2,hr{
+	margin:0;
+	padding:0;
+}
+.header,.banner,.containt,.footer{
+	margin:0px auto;
+	width:958px;
+}
+.clearfix:before,/*-------解决父级元素高度塌陷问题------*/
+.clearfix:after{
+	content:" ";
+	display:table;
+	clear:both;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+.warpar{
+	background-image: url(../images/warpar.png);
+	background-size: 100% 100%;
+}
+.header li,.logo,.header ul{
+	float: left;
+}
+span{
+	margin-left: 10px;
+}
+/*---------通用样式-------*/
+
+
+.logo{
+	padding-top: 75px;
+	width: 169px;
+}
+.header a{
+	font-family: Baskerville Old Face;
+	font-size: 15px;
+	color: #fff;
+}
+.header ul{
+	width: 534px;
+	margin-top: 100px;
+	margin-left: 255px;
+}
+.btn1,.btn2,.btn3,.btn4{
+	margin-right: 47px;
+}
+.header a:hover{
+	color: #75bb3a;
+}
+
+
+
+.banner li{
+	float: left;
+}
+.btn5{
+	font-size: 18px;
+	font-family: Baskerville Old Face;
+	color: #fbee0d;
+	margin-top: 55px;
+}
+.btn6{
+	font-family: Baskerville Old Face;
+	font-size: 14px;
+	margin-left: 567px;
+	color: #076a8d;
+	margin-top: 55px;
+}
+.banner h1{
+	font-family: Baskerville Old Face;
+	font-size: 33px;
+	color: #00baff;
+	width: 252px;
+	float: left;
+}
+.btn7{
+	font-size: 18px;
+	font-family: Baskerville Old Face;
+	color: #00baff;
+}
+.btn8{
+	list-style: url(../images/footer1_03.png);
+	font-family: Baskerville Old Face;
+	font-size: 15px;
+	color: #a1dc9b;
+	margin-left: 22px;
+}
+.btn9{
+	list-style: url(../images/footer2_03.png);
+	font-family: Baskerville Old Face;
+	font-size: 15px;
+	color: #a1dc9b;
+	margin-left: 22px;
+}
+.project h2{
+	font-size: 18px;
+	font-family: Baskerville Old Face;
+	color: #00baff;
+}
+.project p{
+	font-family: Baskerville Old Face;
+	font-size: 15px;
+	color: #a1dc9b;
+	width: 169px;
+	line-height: 0.8rem;
+}
+.project img,.project h2,.project p{
+	float: left;
+}
+.project{
+	width: 231px;
+	float: left;
+	margin-left: 20px;
+}
+.containt-ul1 input,.containt-ul2 input{
+	    width: 222px;
+    height: 30px;
+    background-color: #031924;
+    border: 0px;
+    padding-left: 10px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+.containt-ul1,.containt-ul2{
+	float: left;
+}
+.containt-ul1 p,.containt-ul2 p{
+	    font-family: Baskerville Old Face;
+    font-size: 15px;
+    color: #d6d6d6;
+    margin-bottom: 9px;
+}
+.containt-right textarea{
+	width: 429px;
+	height: 236px;
+	background-color: #031924;
+	border: 0px;
+	color: #fff;
+	padding-left: 10px;
+}
+.containt-right p{
+	    font-family: Baskerville Old Face;
+    font-size: 15px;
+    color: #d6d6d6;
+    margin-bottom: 9px;
+}
+.containt-right input{
+	width: 118px;
+	height: 29px;
+	background-color: #031924;
+	border: 0px;
+	color: #fff;
+	padding-left: 10px;
+	margin-left: 15px;
+}
+.containt-right img{
+	margin-left: 180px;
+}
+.containt-right{
+	margin-left: 10px;
+}
+.design h1,.web h1,.brand h1{
+	    font-size: 18px;
+    font-family: Baskerville Old Face;
+    margin-bottom: 17px;
+    margin-top: 50px;
+}
+.design p,.web p,.brand p{
+	    font-family: Baskerville Old Face;
+    font-size: 15px;
+    color: #d6d6d6;
+}
+.design,.web,.brand{
+	width: 288px;
+	float: left;
+}
+.web,.brand{
+	margin-left: 43px;
+}
+
+
+
+.footer li{
+	float: left;
+	font-family: Baskerville Old Face;
+	font-size: 10px;
+	color: #fff;
+}
+.footer{
+	padding-bottom: 71px;
+	margin-top: 79px;
+}
+.footer p{
+	    font-family: Baskerville Old Face;
+    font-size: 14px;
+    line-height: 1rem;
+    color: #c7cfd3;
+}

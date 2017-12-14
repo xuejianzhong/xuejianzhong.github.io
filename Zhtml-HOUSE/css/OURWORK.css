@@ -1,0 +1,109 @@
+/*---------通用样式-------*/
+body,ul,li,h1,h3,p,h2,hr{
+	margin:0;
+	padding:0;
+}
+.header,.banner,.containt,.footer{
+	margin:0px auto;
+	width:958px;
+}
+.clearfix:before,/*-------解决父级元素高度塌陷问题------*/
+.clearfix:after{
+	content:" ";
+	display:table;
+	clear:both;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+.warpar{
+	background-image: url(../images/warpar.png);
+	background-size: 100% 100%;
+}
+.header li,.logo,.header ul,.banner li{
+	float: left;
+}
+
+
+
+.logo{
+	padding-top: 75px;
+	width: 169px;
+}
+.header a{
+	font-family: Baskerville Old Face;
+	font-size: 15px;
+	color: #fff;
+}
+.header ul{
+	width: 534px;
+	margin-top: 100px;
+	margin-left: 255px;
+}
+.btn1,.btn2,.btn3,.btn4{
+	margin-right: 47px;
+}
+.header a:hover{
+	color: #75bb3a;
+}
+
+
+
+.btn5{
+	font-size: 16px;
+	font-family: Baskerville Old Face;
+	color: #00a5e5;
+}
+.btn6{
+	margin-left: 598px;
+}
+.btn6,.btn8{
+	font-family: Baskerville Old Face;
+    font-size: 14px;
+    color: #c7cfd3;
+    list-style: url(../images/banner3-1_03.png);
+}
+.btn7{
+	font-family: Baskerville Old Face;
+    font-size: 14px;
+    color: #00a5e5;
+    list-style: url(../images/banner3-2_03.png);
+}
+.btn7,.btn8{
+	margin-left: 30px;
+}
+.banner{
+	margin-top: 56px;
+}
+
+
+
+.containt ul{
+	width: 285px;
+	float: left;
+	margin-top: 27px;
+}
+.containt img{
+	border: 10px #051a24 solid;
+	margin-bottom: 18px;
+}
+
+
+.footer li{
+	float: left;
+	font-family: Baskerville Old Face;
+	font-size: 10px;
+	color: #fff;
+}
+.footer{
+	padding-bottom: 71px;
+}
+.footer p{
+	    font-family: Baskerville Old Face;
+    font-size: 14px;
+    line-height: 1rem;
+    color: #c7cfd3;
+}
