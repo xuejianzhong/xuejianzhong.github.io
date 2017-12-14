@@ -1,0 +1,290 @@
+/*----通用样式----*/
+body,ul,h1,h2,h3,p{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-size: 1rem;
+}
+.clearfix:before,
+.clearfix:after{
+	content:" ";
+	display:table;
+	clear: both;
+}
+.header,.nav,.containt,.footer{
+	width: 1050px;
+	margin: 0px auto;
+}
+.logo,.Background,.btn1,.btn2,.btn3,.btn4,.nav-btn4,.nav-btn4 li,.containt-left,.containt-right,.main-left,.main-center,.main-right,.main-bottom-left,.main-bottom-right,.footer-text,.footer-nav,.btn17,.btn18,.btn19,.btn20{
+	float: left;
+}
+.Background li,.nav-btn4 li,.footer-nav li{
+	list-style: none;
+}
+a{
+	text-decoration:none;    取消a的下划线
+	}
+/*----通用样式----*/
+
+/*----warper样式-----*/
+.warper{
+	background: url(../images/bg-img1.jpg);
+	width: 100%;
+	background-attachment: fixed;  /*--固定背景---*/
+}
+/*----warper样式-----*/
+
+/*----header-inne样式----*/
+.header-inner{
+	background:url(../images/bg1_03.png);
+}
+.logo{
+	width: 24.489795%;
+	padding-top: 1.875rem;
+	margin-bottom: 1.5625rem;
+	margin-left: 4.081632%;
+}
+.logo img{
+	width: 100%;
+}
+.btn1{
+	font-family: Sylfaen;
+	font-size: 22px;
+	color: #ffffff;
+	margin-right: 4.20186%;
+}
+.btn2{
+	background-image: url(../images/background-1_03.png);
+	width: 14.18235%;
+	height: 2.1875rem;
+	margin-right: 2.10084%;
+	font-size: 22px;
+	font-family: MV Boli;
+	font-weight: 600;
+	background-repeat:no-repeat;
+}
+.btn3,.btn4{
+	background-image: url(../images/backgraund-2_03.png);
+	width: 14.18235%;
+	height: 2.1875rem;
+	margin-right: 2.10084%;
+	font-size: 22px;
+	font-family: MV Boli;
+	font-weight: 600;
+	background-repeat:no-repeat;
+}
+.Background{
+	width: 24.285714%;
+	margin-left: 43.0612244%;
+	margin-top: 2.75rem;
+}
+/*----header-inne样式----*/
+
+
+/*----nav-inner样式------*/
+.nav-inner{
+	background: url(../images/index.html_03.jpg);
+	border: 1px #ffffff solid;
+}
+.nav-btn4{
+	width: 73.962264%;
+}
+.nav li a{
+	color: #000;
+}
+.nav li a:hover{
+	color:red;
+	line-height:206.25%;	/*-超链接变色-*/
+	}
+.btn10{
+	width: 13.26530%;
+}
+.btn5{
+	width: 16.73269%;
+}
+.btn6{
+	width: 15.714285%;
+}
+.btn7{
+	width: 20.204081%;
+}
+.btn8{
+	width: 16.836734%;
+}
+.btn9{
+	width: 15.63265%;
+}
+.nav-btn4 li{
+	font-family: Palatino Linotype;
+	font-size: 20px;
+}
+.nav-btn4{
+	height: 3.75rem;
+	line-height: 55px;
+	width: 90.714285%;
+}
+.btn10,.btn5,.btn6,.btn7,.btn8,.btn9{
+	border-left: 1px #dddddd solid;
+	border-right: 1px #dddddd solid;
+}
+/*----nav-inner样式------*/
+
+
+/*---containt样式------*/
+.containt{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: url(../images/index_07.png);
+}
+.containt-left{
+	width: 67.346938%;
+	position: relative;
+}
+.containt-left-img{
+	width:92.878787%;
+	padding-left:6.060606%;
+	padding-top: 1.875rem;
+	margin-bottom: 30px;
+}
+.containt-left-img img{
+	width:100%;
+	height:20.25rem;
+}
+.containt-left-img2{
+	width: 34.393939%;
+	position: absolute;
+	left: 65.5%;
+	bottom: 30%;
+}
+.containt-left-img2 img{
+	width: 100%;
+}
+.containt-right{
+	width: 24.38775510204082%;
+}
+.containt-right img{
+	width: 100%;
+}
+.containt-right-img{
+	margin-top: 55px;
+	margin-left: 46px;
+}
+.containt-right-text{
+	margin-left: 46px;
+	margin-top: 33px;
+}
+.btn11{
+	width: 138px;
+	height: 39px;
+	background-color: #f0efee;
+	border: 1px #fff solid;
+	font-family: MS Sans Serif;
+	font-size: 19px;
+	color: #d16220;
+	margin-left: 46px;
+	margin-top: 45px;
+}
+.main-top{
+	background-image: url(../images/main_03.png);
+	clear: left;
+	margin-top: 30px;
+}
+.main-left{
+	width: 290px;
+	margin-left: 45px;
+}
+.main-center{
+	width: 320px;
+	margin-left: 49px;
+	margin-right: 38px;
+}
+.main-right{
+	width: 280px;
+}
+.main-left h1,.main-center h1,.main-right h1{
+	font-family: Plantagenet Cherokee;
+	font-size: 26px; 
+	font-weight: 100;
+	margin-top: 29px;
+}
+.main-left p,.main-center p,.main-right p{
+	font-family: Raavi;
+	font-size: 16px;
+	line-height: 1.4375rem;
+}
+.btn12{
+	width: 138px;
+	height: 39px;
+	background-color: #f0efee;
+	border: 1px #fff solid;
+	font-family: MS Sans Serif;
+	font-size: 19px;
+	color: #0d0d0d;
+	margin-bottom: 31px;
+	margin-top: 25px;
+}
+.main-bottom-left{
+	width: 622px;
+	margin-left: 39px;
+}
+.main-bottom-right{
+	width: 239px;
+	margin-top: 25px;
+	margin-left: 67px;
+}
+.Welccme{
+	margin-top: 31px;
+	margin-bottom: 16px;
+}
+.main-bottom-left p,.main-bottom-left-nav{
+	font-family: Raavi;
+    font-size: 16px;
+    line-height: 1.4375rem
+}
+.main-bottom-left-nav li{
+	list-style: url(../images/list_06.png);
+}
+.btn13 a,.btn14 a,.btn15 a,.btn16 a{
+	color: #000000;
+}
+.main-bottom-left-nav{
+	margin-left: 17px;
+	margin-top: 22px;
+	margin-bottom: 47px;
+}
+/*---containt样式------*/
+
+
+/*--fonter-inner------*/
+.footer-inner{
+	background: url(../images/bg1_03.png);
+}
+.footer P{
+	color: #fff;
+	    font-family: Raavi;
+    font-size: 16px;
+    line-height: 1.4375rem
+}
+.footer-text{
+	width: 295px;
+	margin-top: 32px;
+	margin-left: 40px;
+	margin-bottom: 39px;
+}
+.footer-nav{
+	width: 239px;
+	margin-left: 384px;
+	margin-top: 30px;
+}
+.btn17 a{
+	margin-top: 10px;
+	margin-right: 26px;
+	color: #fff;
+	font-family: Raavi;
+    font-size: 16px;
+}
+.btn18,.btn19{
+	margin-right: 5px;
+}
+/*--fonter-inner------*/
