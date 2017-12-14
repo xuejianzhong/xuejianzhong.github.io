@@ -1,0 +1,258 @@
+/*-------通用样式--------*/
+body,ul,li,h1,h3,p,h2{
+	margin:0;
+	padding:0;
+}
+.header,.containt,.footer{
+	margin:0px auto;
+	width:983px;
+}
+.clearfix:before,/*-------解决父级元素高度塌陷问题------*/
+.clearfix:after{
+	content:" ";
+	display:table;
+	clear:both;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+.warpar{
+	background-image: url(../images/warpar.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.header p,.logo,.nav li,.nav,.nav2,.containt-center,.containt-right,.hua,.nav4 li{
+	float: left;
+}
+/*-------通用样式--------*/
+
+
+/*-------header-inner样式--------*/
+.header{
+	background-image: url(../images/header.jpg);
+	background-repeat: no-repeat;
+	padding-top: 12px;
+	position: relative;
+	box-shadow: 1px 2px 46px #000;
+}
+.logo{
+	width: 152px;
+	height: 76px;
+	background-color: #282828;
+	margin-left: 11px;
+	box-shadow: 3px 3px 5px #000;
+}
+.logo img{
+	margin: 13px 0px 0px 38px;
+}
+.header p{
+	font-family: Arial;
+	font-size: 11px;
+	margin-top:8px;
+}
+.text1,.text4,.text5,.text6,.text7{
+	color: #d3ebf0;
+}
+.text2,.text3{
+	color: #686858;
+}
+.text1{
+	margin-left: 37px;
+}
+.text2{
+	margin-left: 100px;
+	width: 99px;
+	height: 21px;
+	background-color: #e8e6e6;
+	line-height: 1.3rem;
+}
+.text3{
+	width: 74px;
+	height: 21px;
+	background-color: #fff;
+	line-height: 1.3rem;
+}
+.text4{
+	width: 31px;
+	height: 21px;
+	background-color: #ea6617;
+	line-height: 1.3rem;
+}
+.text5,.text6,.text7{
+	margin-left: 35px;
+}
+
+
+.nav li a{
+	color: #fff;
+	font-family: Arial;
+	font-size: 14px;
+}
+.nav li{
+	height: 28px;
+}
+.nav{
+	width: 792px;
+	height: 38px;
+	background-image: url(../images/nav-by_03.png);
+	margin-left: 15px;
+	margin-top: 7px;
+	box-shadow: 5px 5px 5px #000;
+}
+.btn1{
+	width: 69px;
+	padding-top: 10px;
+}
+.btn2,.btn3{
+	width: 59px;
+	padding-top: 10px;
+}
+.btn4,.btn5	{
+	width: 57px;
+	padding-top: 10px;
+}
+.btn6{
+	width: 149px;
+	padding-top: 10px;
+}
+.btn7{
+	width: 76px;
+}
+.btn8{
+	width: 97px;
+	padding-top: 10px;
+}
+.btn9{
+	width: 82px;
+}
+.btn10{
+	width: 66px;
+	padding-top: 10px;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9{
+	border-right: 2px #484848 solid;
+}
+
+.text8{
+	font-family: Arial;
+	font-size: 30px;
+	color: #000;
+	margin-left: 97px;
+	margin-top: 22px;
+}
+.dingwei1{
+	position: absolute;
+	top:250px;
+	left: 60px;
+}
+.dingwei2{
+	position: absolute;
+	top: 250px;
+	left: 885px;
+}
+.text9{
+	font-family: Arial;
+	font-size: 22px;
+	color: #383848;
+	margin: 229px 0px 0px 53px;
+}
+.btn11{
+	width: 73px;
+	height: 26px;
+	background-color: #ea6617;
+	border: 0px;
+	color: #fff;
+	padding:0px;
+	border-radius: 3px;
+	margin-left: 134px;
+	margin-top: 6px;
+}
+
+.bg{
+	margin-top: 51px;
+}
+/*-------header-inner样式--------*/
+
+/*-------containt-inner样式--------*/
+.containt{
+	background-color: #000;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	box-shadow: 2px -2px 46px #000;
+}
+.nav2{
+	width: 225px;
+}
+.nav2 li{
+	font-family: Arial;
+	font-size: 12px;
+	width: 207px;
+	height: 26px;
+	line-height: 1.8rem;
+	color: #cecdcf;
+	background-color: #384868;
+	margin-top: 1px;
+	padding-left: 17px;
+}
+.containt-center,.containt-right,.hua{
+	width: 228px;
+}
+.text10,.text11,.text12{
+	width: 225px;
+	height: 24px;
+	background-color: #282828;
+	font-family: Arial;
+	font-size: 12px;
+	color: #cecdcf;
+	line-height: 1.5rem;
+	padding-left: 10px;
+}
+.nav2,.containt-center,.containt-right{
+	margin-right: 20px;
+}
+/*-------containt-inner样式--------*/
+
+/*-------footer-inner样式--------*/
+.footer-inner{
+	background-color: #000;
+}
+.nav3{
+	background-image: url(../images/nav3-bg_03.png);
+}
+.nav3 li{
+	font-family: Arial;
+	font-size: 11px;
+	color:#989898;
+	float: left;
+}
+.btn17,.btn18,.btn19,.btn20,.btn21,.btn22,.btn23,.btn24{
+	margin-left: 23px;
+}
+.btn25{
+	margin-left: 150px;
+}
+.btn26{
+	margin-left:20px;
+}
+
+.nav4 li{
+	margin-left: 29px;
+	margin-top: 17px;
+	margin-bottom: 31px;
+}
+
+.nav5 li{
+	font-family: Arial;
+	font-size: 8px;
+	color: #282828;
+	float: left;
+	margin-left: 26px;
+	margin-bottom: 59px;
+}
+/*-------footer-inner样式--------*/
+
+
+
