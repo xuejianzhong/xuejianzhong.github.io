@@ -1,0 +1,284 @@
+@charset "UTF-8";
+/*! 盛邦升华 */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+.index {
+  background: url("../img/background.gif");
+  background-size: 100% 100%;
+  padding-bottom: 100px; }
+  .index .banner .container {
+    background-color: #333344; }
+  .index .banner .banner-text {
+    color: #e8cc88; }
+  .index nav {
+    min-height: 0;
+    background: none;
+    border: none;
+    margin-bottom: 0; }
+    .index nav .container {
+      padding: 0; }
+    .index nav .collapse {
+      padding: 0;
+      background-color: #738c9c; }
+    .index nav .action {
+      background-color: #739c9c; }
+    .index nav .navbar-nav {
+      margin-left: 100px; }
+      .index nav .navbar-nav li {
+        border-left: 1px solid #989898;
+        border-right: 1px solid #989898; }
+        .index nav .navbar-nav li:hover {
+          background-color: #efbd63; }
+        .index nav .navbar-nav li a {
+          padding-top: 5px;
+          padding-bottom: 5px; }
+          .index nav .navbar-nav li a:hover {
+            color: #000000; }
+  .index .navbar-default .navbar-nav > li > a {
+    color: #ffffff; }
+  .index .main .container {
+    background-color: #e8dcc8; }
+    .index .main .container .row {
+      padding-bottom: 40px;
+      padding-left: 86px;
+      padding-right: 86px; }
+      .index .main .container .row .main-img img {
+        border-radius: 20%; }
+  .index .main a {
+    background-color: #ebad55;
+    color: #000000; }
+    .index .main a:hover {
+      text-decoration: none; }
+
+.about {
+  background: url("../img/background.gif");
+  background-size: 100% 100%;
+  padding-bottom: 100px; }
+  .about .banner .container {
+    background-color: #333344; }
+  .about .banner .banner-text {
+    color: #e8cc88; }
+  .about nav {
+    min-height: 0;
+    background: none;
+    border: none;
+    margin-bottom: 0; }
+    .about nav .container {
+      padding: 0; }
+    .about nav .collapse {
+      padding: 0;
+      background-color: #738c9c; }
+    .about nav .action {
+      background-color: #739c9c; }
+    .about nav .navbar-nav {
+      margin-left: 100px; }
+      .about nav .navbar-nav li {
+        border-left: 1px solid #989898;
+        border-right: 1px solid #989898; }
+        .about nav .navbar-nav li:hover {
+          background-color: #efbd63; }
+        .about nav .navbar-nav li a {
+          padding-top: 5px;
+          padding-bottom: 5px; }
+          .about nav .navbar-nav li a:hover {
+            color: #000000; }
+  .about .navbar-default .navbar-nav > li > a {
+    color: #ffffff; }
+  .about .main .container {
+    background-color: #e8dcc8; }
+    .about .main .container .row {
+      padding-bottom: 40px;
+      padding-left: 86px;
+      padding-right: 86px; }
+      .about .main .container .row span {
+        background-color: #f8b850;
+        cursor: pointer; }
+      .about .main .container .row ul {
+        padding-left: 0; }
+        .about .main .container .row ul li:nth-of-type(2) {
+          margin-top: 8px; }
+
+.photos {
+  background: url("../img/background.gif");
+  background-size: 100% 100%;
+  padding-bottom: 100px; }
+  .photos .banner .container {
+    background-color: #333344; }
+  .photos .banner .banner-text {
+    color: #e8cc88; }
+  .photos nav {
+    min-height: 0;
+    background: none;
+    border: none;
+    margin-bottom: 0; }
+    .photos nav .container {
+      padding: 0; }
+    .photos nav .collapse {
+      padding: 0;
+      background-color: #738c9c; }
+    .photos nav .action {
+      background-color: #739c9c; }
+    .photos nav .navbar-nav {
+      margin-left: 100px; }
+      .photos nav .navbar-nav li {
+        border-left: 1px solid #989898;
+        border-right: 1px solid #989898; }
+        .photos nav .navbar-nav li:hover {
+          background-color: #efbd63; }
+        .photos nav .navbar-nav li a {
+          padding-top: 5px;
+          padding-bottom: 5px; }
+          .photos nav .navbar-nav li a:hover {
+            color: #000000; }
+  .photos .navbar-default .navbar-nav > li > a {
+    color: #ffffff; }
+  .photos .main .container {
+    background-color: #e8dcc8; }
+    .photos .main .container .row {
+      padding-bottom: 40px;
+      padding-left: 86px;
+      padding-right: 86px; }
+      .photos .main .container .row ul {
+        padding-left: 0; }
+        .photos .main .container .row ul li {
+          list-style: none;
+          float: left;
+          padding-left: 5px;
+          padding-right: 5px;
+          cursor: pointer; }
+
+.live {
+  padding-bottom: 100px;
+  background: url("../img/background.gif");
+  background-size: 100% 100%; }
+  .live .banner .container {
+    background-color: #333344; }
+  .live .banner .banner-text {
+    color: #e8cc88; }
+  .live nav {
+    min-height: 0;
+    background: none;
+    border: none;
+    margin-bottom: 0; }
+    .live nav .container {
+      padding: 0; }
+    .live nav .collapse {
+      padding: 0;
+      background-color: #738c9c; }
+    .live nav .action {
+      background-color: #739c9c; }
+    .live nav .navbar-nav {
+      margin-left: 100px; }
+      .live nav .navbar-nav li {
+        border-left: 1px solid #989898;
+        border-right: 1px solid #989898; }
+        .live nav .navbar-nav li:hover {
+          background-color: #efbd63; }
+        .live nav .navbar-nav li a {
+          padding-top: 5px;
+          padding-bottom: 5px; }
+          .live nav .navbar-nav li a:hover {
+            color: #000000; }
+  .live .navbar-default .navbar-nav > li > a {
+    color: #ffffff; }
+  .live .main .container {
+    background-color: #e8dcc8; }
+    .live .main .container .row {
+      padding-bottom: 40px;
+      padding-left: 86px;
+      padding-right: 86px; }
+      .live .main .container .row .tour table tr:nth-of-type(1) {
+        background-color: #405450;
+        text-align: center;
+        color: #ffffff; }
+      .live .main .container .row .tour table tr:nth-of-type(2), .live .main .container .row .tour table tr:nth-of-type(4) {
+        background-color: #eecc88;
+        cursor: pointer; }
+      .live .main .container .row .tour table tr:nth-of-type(3), .live .main .container .row .tour table tr:nth-of-type(5) {
+        background-color: #eebb66;
+        cursor: pointer; }
+      .live .main .container .row .tour table tr td {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border: 1px solid #e8dcc8; }
+      .live .main .container .row .tour h4 {
+        margin-top: 20px; }
+      .live .main .container .row .tour ul {
+        padding-left: 0; }
+        .live .main .container .row .tour ul li {
+          list-style: none;
+          float: left;
+          padding-left: 10px;
+          padding-right: 10px; }
+
+.contact {
+  background: url("../img/background.gif");
+  background-size: 100% 100%;
+  padding-bottom: 100px; }
+  .contact .banner .container {
+    background-color: #333344; }
+  .contact .banner .banner-text {
+    color: #e8cc88; }
+  .contact nav {
+    min-height: 0;
+    background: none;
+    border: none;
+    margin-bottom: 0; }
+    .contact nav .container {
+      padding: 0; }
+    .contact nav .collapse {
+      padding: 0;
+      background-color: #738c9c; }
+    .contact nav .action {
+      background-color: #739c9c; }
+    .contact nav .navbar-nav {
+      margin-left: 100px; }
+      .contact nav .navbar-nav li {
+        border-left: 1px solid #989898;
+        border-right: 1px solid #989898; }
+        .contact nav .navbar-nav li:hover {
+          background-color: #efbd63; }
+        .contact nav .navbar-nav li a {
+          padding-top: 5px;
+          padding-bottom: 5px; }
+          .contact nav .navbar-nav li a:hover {
+            color: #000000; }
+  .contact .navbar-default .navbar-nav > li > a {
+    color: #ffffff; }
+  .contact .main .container {
+    background-color: #e8dcc8; }
+    .contact .main .container .row {
+      padding-bottom: 40px;
+      padding-left: 86px;
+      padding-right: 86px; }
+      .contact .main .container .row .biaodan input {
+        width: 25%;
+        float: left; }
+      .contact .main .container .row .biaodan span {
+        float: left;
+        color: red; }
+      .contact .main .container .row .biaodan span:nth-of-type(1) {
+        padding-top: 7px;
+        margin-left: 5px; }
+      .contact .main .container .row .biaodan span:nth-of-type(2) {
+        padding-top: 7px;
+        margin-left: 5px; }
+      .contact .main .container .row .biaodan span:nth-of-type(3) {
+        padding-top: 47px;
+        margin-left: 5px; }
+      .contact .main .container .row .biaodan textarea {
+        width: 35%;
+        float: left; }
+      .contact .main .container .row .biaodan button {
+        margin-top: 20px; }
+      .contact .main .container .row .biaodan p {
+        margin-bottom: 2px;
+        margin-top: 10px; }
+    .contact .main .container .main-img {
+      padding-top: 30px; }
