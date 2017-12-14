@@ -1,0 +1,252 @@
+/*-------通用样式--------*/
+body,ul,li,h1,h3,p,h2{
+	margin:0;
+	padding:0;
+}
+.header,.banner,.containt,.footer{
+	margin:0px auto;
+	width:885px;
+}
+.clearfix:before,/*-------解决父级元素高度塌陷问题------*/
+.clearfix:after{
+	content:" ";
+	display:table;
+	clear:both;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+.warpar{
+	width: 100%;
+	background-image: url(../images/warpar-bg.gif);
+	background-repeat: no-repeat;
+}
+.nav li,.nav,.logo{
+	float: left;
+}
+.Lorem img,.Lorem h1,.Lorem h2,.Lorem p{
+	float: left;
+}
+.Dolor img,.Dolor h1,.Dolor h2,.Dolor p{
+	float: left;
+}
+/*-------通用样式--------*/
+
+/*-------header-inner样式--------*/
+.logo{
+	width: 333px;
+	margin-top: 45px;
+	position: relative;
+}
+.logo img{
+	position: absolute;
+	top: -5px;
+	left: -11px;
+	z-index: 1;
+}
+.nav{
+	width: 374px;
+	margin: 61px 0px 69px 172px;
+}
+.nav li a{
+	font-family: Arial;
+	font-size: 21px;
+	color: #4a2008;
+	text-shadow: 3px 2px 2px #000;
+}
+.btn1,.btn2,.btn3{
+	margin-right: 31px;
+}
+/*-------header-inner样式--------*/
+
+
+/*-------banner-inner样式--------*/
+.banner{
+	background-image: url(../images/ICON-bg_09.png);
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	position: relative;
+	border-bottom: 1px #cbcbc9 solid;
+	box-shadow:5px -1px 5px #000;
+}
+.ICON{
+	width: 277px;
+	padding-left: 49px;
+}
+.ICON p{
+	font-family: Arial;
+	font-size: 12px;
+	color: #a58b7a;
+	line-height: 1.5rem;
+}
+.ICON h1{
+	font-family: Arial;
+	font-size: 19px;
+	color: #fffefb;
+	padding-top: 20px;
+	margin-bottom: 18px;
+}
+.input1{
+	padding: 0px;
+	border: 0px;
+	background-color: #311106;
+	width: 98px;
+	height: 39px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: #5d4030;
+	box-shadow:3px 3px 4px #000;
+}
+
+.dingwei2{
+	font-family: Arial;
+	color: #fff;
+	font-size: 5px;
+	position: absolute;
+	top: 14px;
+	left: 370px;
+}
+.Brown{
+	width: 467px;
+	position: absolute;
+	top: -21px;
+	left: 389px;
+	box-shadow:5px 5px 10px #000;
+}
+.Brown p{
+	font-family: Arial;
+	font-size: 36px;
+	color: #a94035;
+	line-height: 5rem;
+	height: 71px;
+	background-image: url(../images/Brown_03.png);
+	padding-left: 16px;
+}
+.Brown p a{
+	font-family: Arial;
+	font-size: 24px;
+	color: #e5dedf;
+}
+.Brown ul li{
+	float: left;
+	margin-right: 23px;
+	margin-top: 19px;
+	box-shadow:5px 2px 8px #000;
+}
+.Brown ul{
+	background-color: #2b2d2e;
+	padding-left: 30px;
+}
+.nav2{
+	padding-bottom: 12px;
+}
+.dingwei li{
+	margin-top: 10px;
+	box-shadow:5px 3px 5px #000;
+}
+.dingwei{
+	position: absolute;
+	left: 885px;
+	top: 23px;
+}
+
+.Lorem,.Dolor{
+	background-color: #e3e2e1;
+	width: 375px;
+	padding: 36px 40px 24px 26px;
+	float: left;
+}
+.Lorem{
+	border-right: 2px #cbcbc9 solid;
+}
+.Lorem h1,.Dolor h1{
+	font-family: Arial;
+	font-size: 19px;
+	color: #585856;
+	width: 275px;
+	margin-bottom: 7px;
+}
+.Lorem p,.Dolor p{
+	font-family: Arial;
+	font-size: 12px;
+	color: #7e7e7c;
+	line-height: 1.5rem;
+	width: 275px;
+}
+.Lorem h2,.Dolor h2{
+	font-family: Arial;
+	font-size: 13px;
+	color: #2b2b2a;
+	width: 275px;
+	margin-top: 7px;
+}
+.Lorem img,.Dolor img{
+	margin-bottom: 47px;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+/*-------banner-inner样式--------*/
+
+/*-------containt-inner样式--------*/
+.containt{
+	background-color: #e4e3e1;
+	padding-top: 53px;
+	padding-left: 44px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	box-shadow:5px -4px 5px #000;
+}
+.containt h1{
+	font-family: Arial;
+	font-size: 19px;
+	color: #585856;
+	margin-bottom: 40px;
+}
+.containt p{
+	font-family: Arial;
+	font-size: 12px;
+	color: #6c6b69;
+	line-height: 1.5rem;
+}
+.containt ul li{
+	float: left;
+	margin-right: 8px;
+}
+.containt ul{
+	margin-top: 48px;
+	margin-bottom: 43px;
+}
+.input2{
+	padding: 0px;
+	border: 0px;
+	background-color: #4a240f;
+	font-family: Arial;
+	font-size: 28px;
+	color: #b1aea3;
+	width: 243px;
+	height: 70px;
+	border-radius: 8px;
+	margin-left: 270px;
+	margin-bottom: 69px;
+	box-shadow:5px 5px 4px #000;
+}
+/*-------containt-inner样式--------*/
+
+/*-------footer-inner样式--------*/
+.footer p{
+	font-family: Arial;
+	font-size: 11px;
+	color: #3f302a;
+	margin-top: 29px;
+	padding-bottom: 33px;
+	text-shadow: 5px 5px 5px #000;
+}
+/*-------footer-inner样式--------*/
+
+
+
+
