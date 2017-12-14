@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/*!
+ * 
+ * 盛邦升华
+ * 
+*/
+/* 
+ * css reset | v2.0
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+.beijing {
+  background: url("../img/background.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 450px;
+  position: relative;
+  overflow: hidden; }
+
+.yun {
+  position: absolute;
+  top: 7%;
+  animation: yun 4s infinite linear; }
+
+.che {
+  position: absolute;
+  bottom: 17%;
+  animation: che 12s infinite linear; }
+
+.lunzi-1 {
+  position: absolute;
+  bottom: 0;
+  left: 13%;
+  animation: lunzi 2.5s infinite linear; }
+
+.lunzi-2 {
+  position: absolute;
+  bottom: 0;
+  left: 67%;
+  animation: lunzi 2.5s infinite linear; }
+
+@keyframes yun {
+  0% {
+    left: -5%; }
+  100% {
+    left: 75%;
+    opacity: 0; } }
+
+@keyframes lunzi {
+  100% {
+    transform: rotateZ(360deg); } }
+
+@keyframes che {
+  0% {
+    left: -15%; }
+  100% {
+    left: 280%; } }
