@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li,h1,h3,p,h2,hr{
+	margin:0;
+	padding:0;
+	}
+.login,.header,.containt,.footer{
+	margin:0px auto;
+	width:933px;
+	}
+.clearfix:before,/*-------解决父级元素高度塌陷问题------*/
+.clearfix:after{
+	content:" ";
+	display:table;
+	clear:both;
+	}
+a{
+	text-decoration:none;
+	}
+li{
+	list-style:none;
+	}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6{
+	width:131px;
+	height:34px;
+	}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6{
+	float:left;
+	}
+.nav li a{
+	font:16px Kartika;
+	font-weight:600;  /*-----加粗，不加单位------*/
+	}
+/*-------通用样式--------*/
+
+
+/*-----login-inner样式--------*/
+.login-inner{
+	background-image:url(../images/login_02.gif);
+	}
+.login li {
+	float:right;
+	line-height:162.5%;
+	}
+.login li a{
+	color:#c1cad3;
+	font:16px Kartika;
+	}
+.resister-btn{
+	width:72px;
+	margin:0px 3px 0px 12px;
+	}
+.login-btn{
+	width:54px;
+	}
+.login li{
+	list-style: url(../images/li_05.gif);
+}
+/*-----login-inner样式--------*/
+
+
+/*-----header-inner样式--------*/
+.header-inner{
+	background-image:url(../images/header_06.gif);
+	width:100%;
+	height:138px;
+	border-top:1px #a0a795 dashed;
+	border-bottom:1px #a0a795 dashed;
+	}
+.logo{
+	margin:37px 0px 37px 0px;
+	}
+/*-----header-inner样式--------*/
+
+/*--------containt-inner-----*/
+.containt-inner{
+	background-color:#f2efdc;
+	height:1160px;
+	}
+.nav{
+	background:#FFF;
+	width:933px;
+	height:34px;
+	line-height:206.25%;
+	padding:3px 0px 3px 0px;
+	border-bottom:1px #000000 dashed;
+	margin-bottom:10px;
+	}
+.btn1{
+	background-color:#000;
+	color:#FFF;
+	margin-left:72px;
+	}
+.nav li{
+	text-align:center;
+	}
+.nav .btn1 a{
+	color:#FFF;
+	}
+.nav .btn2 a,.nav .btn3 a,.nav .btn3 a,.nav .btn4 a,.nav .btn5 a,.nav .btn6 a{
+	color:#000;
+	}
+.btn2,.btn3,.btn4,.btn5{
+	border-right:1px #000000 dashed; 
+	}
+.nav li a{
+	display:block;
+	line-height:206.25%;
+	}
+.nav li a:hover{
+	color:red;
+	width:123px;
+	display:block;
+	background-color:#CF0;
+	line-height:206.25%;
+	}
+/*--------containt-inner-----*/
+
+/*-------main样式--------*/
+.main{
+	padding-left:57px;
+	padding-right:58px;
+	}
+.main-top{
+	border-bottom:1px #000000 dashed;
+	margin-bottom:17px;
+	}
+.main-top h1,.text-btn a,.sidebar h1{
+	color:#d63b2f;
+	font-family:Euphemia;
+	font-weight:600;
+	}
+.text-btn{
+	text-align:right;
+	margin-bottom:19px;
+	}
+.main txt,.main h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	}
+.main h2{
+	font-size:20px;
+	font-weight:100;
+	width:209px;
+	height:34px;
+	background-color:#FFF;
+	}
+.main h1{
+	font:30px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding:21px 0px 19px 0px;
+	}
+.txt{
+font:17px Sylfaen;
+}
+/*-------main样式--------*/
+
+/*-------sidebar样式--------*/
+.sidebar h2{
+	font-weight:100;
+	}
+.background{
+	width:85px;
+	height:13px;
+	background-color:#d7d5c0;
+	}
+.want{
+	width:325px;
+	height:26px;
+	background-color:#d3181f;
+	margin:0px auto;
+	color:#FFF;
+	font:16px Trebuchet MS;
+		}
+.table{
+	width:350px;
+	height:326px;
+	border:10px #FFFFFF solid;
+	float:left;
+	padding:24px 47px 28px 40px;
+	margin-right:9px;
+	background-color:#fffdf0;
+	}
+.table1{
+	width:366px;
+	height:326px;
+	float:left;
+	}
+/*-------sidebar样式--------*/
+
+/*----footer-inner------*/
+.footer-inner{
+	background-image:url(../images/footer_14.gif);
+	height:197px;
+	clear:both;
+	}
+.btn7{
+	font:14px Trebuchet MS;
+	color:#FFF;
+	padding-top:42px;
+	}
+.copyright{
+	font:14px Trebuchet MS;
+	color:#FFF;
+	margin-bottom:13px;
+	margin-top:10px;
+	}
+.btn8{
+	width:87px;
+	height:29px;
+	background-color:#ce2c29;
+	line-height:150.25%;
+	padding-left:10px;
+	}
+.btn9{
+	width:70px;
+	height:29px;
+	background-color:#dcc82b;
+	line-height:150.25%;
+	padding-left:8px;
+	}
+.btn10{
+	font:14px Trebuchet MS;
+	color:#FFF;
+	margin-top:8px;
+	}
+/*----footer-inner------*/
+
+	
+

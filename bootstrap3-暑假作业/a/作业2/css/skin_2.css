@@ -1,0 +1,12 @@
+.mainNav {
+    background-color: #E44072;
+}
+#jnCatalog h2 {
+    background-color: #F296B2;
+}
+.mainNav ul{
+	background-color: #E44072;
+}
+.icon_bot li:hover{/*---下拉菜单鼠标划过的背景颜色--*/
+    background-color:red;	
+}

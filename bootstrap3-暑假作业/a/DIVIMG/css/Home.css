@@ -1,0 +1,184 @@
+/*----通用样式----*/
+body,ul,li,p,h1,h2{
+	margin:0;
+	padding:0;
+}
+.clearfix:before,
+.clearfix:after{
+	content:" ";
+	display:table;
+	clear: both;
+}
+.warpar{
+	width: 100%;
+	background-image: url(../images/body-bg.jpg);
+	background-attachment: fixed;
+}
+.banner,.header,.containt,.footer{
+	width: 960px;
+	margin:0px auto;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration:none; 
+}
+.logo,.header ul,.header ul li{
+	float: left;
+}
+/*----通用样式----*/
+
+/*----header-inner样式----*/
+.header{
+	background-image: url(../images/header_03.png);
+	padding-top: 49px;
+	padding-left:20px;
+	padding-bottom: 40px;
+}
+.logo{
+	width: 203px;
+	margin-right: 137px;
+	margin-left: 38px;
+}
+.header ul{
+	width: 525px;
+}
+.btn1{
+	width: 52px;
+	height: 36px;
+}
+.btn2{
+	width: 69px;
+	height: 36px;
+}
+.btn3{
+	width: 86px;
+	height: 36px;
+}
+.btn4{
+	width: 94px;
+	height: 36px;
+}
+.btn5{
+	width: 131px;
+	height: 36px;
+}
+.btn6{
+	width: 93px;
+	height: 36px;
+}
+.header li a{
+		font-family: Utsaah;
+	font-size: 16px;
+	color: #000;
+	line-height: 3rem;
+}
+.header li a:hover{
+	color:#fff;
+	width:120px;
+	height:39px;
+	display:block;
+	background-color:#000;
+}
+/*----header-inner样式----*/
+
+/*----banner-inner样式----*/
+.back{
+	background-image: url(../images/slide-3.jpg);
+	height: 392px;
+	width: 940px;
+}
+.banner{
+	background-image: url(../images/header_03.png);
+	padding-left: 20px;
+}
+.text1{
+	font-family: Javanese Text;
+	font-size: 42px;
+	padding-top: 220px;
+	color: #fff;
+}
+.text2{
+	font-family: Javanese Text;
+	font-size: 64px;
+	color: #fff;
+}
+.dingwei{
+	position: absolute;
+	top: 390px;
+	left: 411px;
+}
+.dingwei2{
+	position: absolute;
+	top: 396px;
+	left: 1155px;
+}
+/*----banner-inner样式----*/
+
+
+
+/*----containt-inner样式----*/
+.containt{
+	background-image: url(../images/header_03.png);
+	padding-left:20px;
+}
+.main-bottom{
+	background-color: #fff;
+	padding-left: 20px;
+	margin-right: 20px;
+	padding-top: 29px;
+	padding-bottom: 57px;
+}
+.main-top h1,.main-bottom h1{
+	font-family: Javanese Text;
+	font-size: 24px;
+	font-weight: 100;
+}
+.main-bottom h2{
+	font-family: Javanese Text;
+	font-size: 18px;
+	font-weight: 100;
+}
+.main-top{
+	padding-top: 42px;
+	padding-bottom: 35px;
+}
+.main-top p,.main-bottom p,.footer-text p{
+	font-family: Javanese Text;
+	font-size: 14px;
+	line-height: 1.857142;
+}
+.main-top p,.main-top h1{
+	width: 583px;
+}
+.main-top p,.main-top h1,.main-top img{
+	float: left;
+}
+.june,.july,.august{
+	width: 260px;
+	float: left;
+	margin-right: 37px;
+}
+/*----containt-inner样式----*/
+
+
+.footer{
+	background-image: url(../images/header_03.png);
+	padding-left: 20px;
+}
+.footer-text{
+	background-color: #000;
+	margin-right: 20px;
+	padding:37px 40px 29px 38px;
+}
+.footer-text p{
+	color: #7f7f7f;
+}
+.nav1,.nav2,.nav3{
+	float: left;
+	margin-right: 10px;
+}
+.nav{
+	float: right;
+}

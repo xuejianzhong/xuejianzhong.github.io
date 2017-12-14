@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    /*animation: shark 10s;*/
+    overflow-x: hidden;
+}
+#banner{
+    background: url("../images/bg1.jpg");
+    height: 500px;
+}
+#banner .center{
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 100px 0;
+}
+#banner .title .text{
+    position: relative;
+    margin: auto;
+    height: 72px;
+}
+#banner .title .text div{
+    background: url("../images/text_left.png");
+    width: 200px;
+    height:72px;
+    position: absolute;
+}
+#banner .title .text div:nth-of-type(2){
+    background: url("../images/text_right.png");
+    right: 0;
+}
+#banner .btn{
+    margin-top: 20px;
+}
+#banner .btn a{
+    padding: 15px 15px;
+    background-color: #08b573;
+    color: floralwhite;
+    text-decoration: none;
+    display: inline-block;
+}
+#banner .btn a:nth-of-type(2){
+    animation:color 5s infinite linear;
+}
+
+
+@keyframes shark {
+    0%{
+        margin: 0;
+    }
+    10%{
+        margin: -30px 0px 0px -30px;
+    }
+    20%{
+        margin: -30px -30px 0 0;
+    }
+    30%{
+        margin: 0 -30px -30px 0;
+    }
+    40%{
+        margin: 0 0 -30px -30px;
+    }
+    50%{
+        margin: 0 0 -30px -30px;
+    }
+    60%{
+        margin: -30px 0px 0px -30px;
+    }
+    70%{
+        margin: -30px -30px 0 0;
+    }
+    80%{
+        margin: 0 -30px -30px 0;
+    }
+    90%{
+        margin: 0 0 -30px -30px;
+    }
+}
+@keyframes color {
+    0%{
+        background-color: #086fb6;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: blueviolet;
+    }
+}
+
+
+
+
+.comsic-cube{
+    background-color: black;
+    height: 100vh;
+    display: flex;/*-让他里面的居中-*/
+    align-items: center;
+    justify-content: center;
+}
+.comsic-cube .comsic{
+    background: url("../images/circle.jpg");/*-加背景图片，加宽高，会把div挤走-*/
+    width: 700px;
+    height:548px;
+    display: flex;/*-加个居中-*/
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.comsic-cube .cube{
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);/*-先让他旋转，方便构成立体，不过他会到上面，看不到-*/
+
+    transform-style: preserve-3d;/*子元素将保留其3D位置*/
+    animation:cube 10s infinite linear;/*-动画效果出来后，他会左右动，给个宽高-*/
+    width: 80px;
+    height:80px;
+}
+.comsic-cube .cube div{
+    width: 80px;
+    height:80px;
+    border:3px #19decd solid;
+    position: absolute;/*-重叠在一起-*/
+    box-shadow: 0 0 100px #19decd;/*-发光-*/
+
+    color: #ffffff;
+    font-size: 70px;
+    text-align: center;
+    line-height: 80px;
+}
+.comsic-cube .cube div:nth-of-type(1){
+    transform: translateY(-40px) rotateX(90deg);/*-现在因为是90度，看不到，要写transform-style: preserve-3d;/*子元素将保留其3D位置-*/
+}
+.comsic-cube .cube div:nth-of-type(2){
+    transform: translateY(40px) rotateX(90deg);
+}
+.comsic-cube .cube div:nth-of-type(3){
+    transform: translateX(-40px) rotateY(90deg);
+}
+.comsic-cube .cube div:nth-of-type(4){
+    transform: translateX(40px) rotateY(90deg);
+}
+.comsic-cube .cube div:nth-of-type(5){
+    transform: translateZ(-40px);
+}
+.comsic-cube .cube div:nth-of-type(6){
+    transform: translateZ(40px);
+}
+
+@keyframes cube{/*-动画-*/
+    100%{
+        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg)
+    }
+}
+.comsic-text1,.comsic-text2,.comsic-text3,.comsic-text4,.comsic-text5,.comsic-text6{
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(255, 255, 255, 0.23);
+    line-height: 20px;
+    /*height: 85px;*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.comsic-text1{
+    top: 6px;
+    height: 102px;
+}
+.comsic-text2{
+    top: 183px;
+    left: 484px;
+}
+.comsic-text3{
+    top: 356px;
+    left: 486px;
+}
+.comsic-text4{
+    top: 458px;
+    left: 306px;
+}
+.comsic-text5{
+    top: 356px;
+    left: 105px;
+}
+.comsic-text6{
+    top:183px;
+    left: 105px;
+}
+.comsic div dt{
+    margin-bottom: 22px;
+    font-size: 18px;
+}
+
+
+
+
+html{
+    overflow-x: hidden;
+}
+body{
+    background-color: #000000;
+    color: #fff;
+    height: 3790px;
+}
+header h2{
+    text-align: center;
+    margin-top: 20px;
+}
+header .line{
+    width: 120px;
+    height:10px;
+    background-color: #fff;
+    margin:15px auto;
+}
+header p{
+    text-align: center;
+}
+
+
+.wrap ul{
+    width: 1080px;
+    margin: auto;
+    transform: rotateX(45deg) rotateZ(45deg) translateX(-200px);
+    transform-style: preserve-3d;/*-子元素将保留其3D位置-*/
+}
+.wrap ul::after{/*-清除浮动影响-*/
+    display: table;
+    clear: both;
+    content:"";
+}
+.wrap li{
+    float: left;
+    margin: 15px;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;/*-相对定位-*/
+    width: 330px;
+    height: 230px;
+    transition: .5s;
+}
+
+.wrap li:hover{
+    box-shadow: 0 0 50px #fff;/*-鼠标经过li放光-*/
+}
+
+.wrap img{
+    width: 330px;
+    height:230px;
+    position: absolute;/*-绝对定位必须写-*/
+    z-index: 4;
+    transition: .5s;
+}
+.wrap li:hover img{
+    transform: translateZ(100px);/*-鼠标经过li的时候img偏移-*/
+    z-index: 10;/*-层级顺序改变-*/
+}
+
+
+.wrap li div{
+    width: 330px;
+    height:230px;
+    position: absolute;/*-绝对定位必须写-*/
+    transition: .5s;
+}
+.wrap li div:nth-of-type(1){
+    background-color: rgba(172, 92, 245, 0.5);
+    z-index: 3;
+}
+.wrap li div:nth-of-type(2){
+    background-color: rgba(8, 111, 182, 0.51);
+    z-index: 2;
+}
+.wrap li div:nth-of-type(3){
+    background-color: rgba(255, 255, 0, 0.48);
+    z-index: 1;
+}
+
+
+.wrap li:hover div:nth-of-type(1){
+    transform: translateZ(75px);
+    z-index: 9;/*-层级顺序改变-*/
+}
+.wrap li:hover div:nth-of-type(2){
+    transform: translateZ(50px);
+    z-index: 8;
+}
+.wrap li:hover div:nth-of-type(3){
+    transform: translateZ(25px);
+    z-index: 7;
+}
+
+
+
+
+body{
+    background-color: #000;
+}
+.header-text{
+    position: relative;
+    top: -990px;
+    background-color: #000000;
+    padding-bottom: 508px;
+}
+header h2{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 36px;
+}
+header .line{
+    width: 120px;
+    height:3px;
+    background-color: #fff;
+    margin:15px auto;
+}
+header p{
+    text-align: center;
+    color: #ffffff;
+}
+
+.back{
+    position: relative;
+    top: -1510px;
+    width: 800px;
+    height: 900px;
+    margin: auto;
+}
+.back .dingwei{
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    position: relative;
+}
+.back .dingwei img{
+    position: absolute;
+    z-index: 99;
+}
+.back .dingwei img:nth-of-type(1){
+    top: 438px;
+    left: 171px;
+}
+.back .dingwei img:nth-of-type(2){
+    top: 189px;
+    left: 315px;
+}
+.back .dingwei img:nth-of-type(3){
+    top: 333px;
+    left: 628px;
+}
+.back .dingwei img:nth-of-type(4){
+    top: 551px;
+    left: 440px;
+}
+
+
+.back .dingwei .font-size{
+    font-size: 30px;
+}
+.back .dingwei p{
+    color: #ffffff;
+    font-family: Andalus;
+    width: 98px;
+    position: absolute;
+    z-index: 99;
+}
+.back .dingwei p:nth-of-type(1){
+    top:364px;
+    left: 170px;
+}
+.back .dingwei p:nth-of-type(2){
+    top:163px;
+    left: 357px;
+}
+.back .dingwei p:nth-of-type(3){
+    width: 138px;
+    top:364px;
+    left: 530px;
+    text-align: right;
+}
+.back .dingwei p:nth-of-type(4){
+    width: 82px;
+    top: 530px;
+    left:357px;
+    text-align: right;
+}
+.back .xuanzhuan{
+    background: url("../images/blackhole.png");
+    width:800px;
+    height:800px;
+    animation: xuanzhuan 10s infinite linear;
+    position: absolute;
+    top: 0px;
+}
+.btn1{
+    padding: 15px 20px;
+    background-color: #08b573;
+    color: floralwhite;
+    font-size: 22px;
+    text-decoration: none;
+    display: inline-block;
+    animation: color2 10s infinite linear;
+    margin-left: 346px;
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+}
+
+
+
+
+@keyframes xuanzhuan {
+    100%{
+        transform:rotateZ(360deg)
+    }
+}
+@keyframes color2 {
+    10%{
+        background-color: red;
+    }
+    20%{
+        background-color: #19decd;
+    }
+    30%{
+        background-color: chartreuse;
+    }
+    40%{
+        background-color: blue;
+    }
+    50%{
+        background-color: crimson;
+    }
+}

@@ -1,0 +1,348 @@
+﻿body,ul,li,p,h1,h2,h3,h4{
+    margin:0px;
+    padding:0px;
+}
+.clearfix:before,
+.clearfix:after{
+    content:" ";
+    display:table;
+    clear: both;
+}
+.warpar{
+    width: 100%;
+}
+.header,.containt{
+    width: 990px;
+    margin:0px auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+.logo,.header input,.nav1 li,.nav1,.mainNav li,#jnCatalog,.banner,.nav2 li,.xuanzhuan,.zuixin,#jnCatalog,.banner-inner,.banner-nav li,.xuanxiangka li,.containt-text,.containt-nav1 li,.containt-nav2 li,.containt-nav3 li,.banner-nav1 li,.banner-nav2 li{
+    float: left;
+}
+
+
+
+.header-inner{
+    background-image: url("../images/headerbg.png");
+}
+.logo{
+    width: 158px;
+    margin-right: 42px;
+}
+.header input{
+    width: 204px;
+    height: 27px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+
+#div_side_0,#div_side_1
+{
+    float:left;
+    width:120px;
+    height:450px;
+}
+#skin
+{
+    width:120px;
+    padding-right:20px;
+    list-style:none;
+    overflow:hidden;
+    float: right;
+	margin-top:27px;
+}
+#skin li{
+    float:left;
+    margin-right:5px;
+    width:15px;
+    height:15px;
+    text-indent:-999px;
+    overflow:hidden;
+    display:block;
+    cursor:pointer;
+    background: url("../images/theme.gif");
+}
+#skin #skin_0{
+    background-position:0px 0px;
+}
+#skin #skin_1{
+    background-position:15px 0px;
+}
+#skin #skin_2{
+    background-position:35px 0px;
+}
+#skin #skin_3{
+    background-position:55px 0px;
+}
+#skin #skin_4{
+    background-position:75px 0px;
+}
+#skin #skin_5{
+    background-position:95px 0px;
+}
+#skin_0.selected{
+    background-position:0px 15px !important;
+}
+#skin_1.selected{
+    background-position:15px 15px !important;
+}
+#skin_2.selected{
+    background-position:35px 15px !important;
+}
+#skin_3.selected{
+    background-position:55px 15px !important;
+}
+#skin_4.selected{
+    background-position:75px 15px !important;
+}
+#skin_5.selected{
+    background-position:95px 15px !important;
+}
+.title
+{
+    cursor:pointer;}
+h1{
+    margin:10px;
+    padding:10px 20px;
+    width:60px;
+    color:#ffffff;
+    font-size:14px;
+}
+a:link {
+    text-decoration: none;
+    color: #333333;
+}
+a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+a:hover {
+    color: #000000;
+}
+
+
+
+
+.mainNav{
+    height: 34px;
+    background-color: #3f589a;
+    font-size: 20px;
+    margin-top: 9px;
+}
+.mainNav>li{
+    margin-left: 30px;
+    line-height: 34px;
+    position:relative;
+    display:block;
+}
+.mainNav>li>.more{
+    padding-right:20px;
+    display:block;
+    background:url(../images/down.gif) no-repeat right;
+}
+.mainNav a{
+    color: #FFFFFF;
+}
+.icon_bot{		/*---下拉的ul---*/
+	z-index: 99;
+    background-color:#333;
+    width:110px;
+    position:absolute;   	 /*---下拉菜单定位----*/
+    left:-30px;
+    top:33px;
+    display:none;
+}
+.icon_bot li{/*---下拉菜单的背景颜色---*/
+	text-align: center;
+    padding-left:34px;
+	padding-right: 35px;
+    border-bottom:1px #444 solid;
+    border-top:1px #252525 solid;
+}
+.icon_bot li:hover{/*---下拉菜单鼠标划过的背景颜色--*/
+    background-color:#2a2a2a;
+}
+
+
+
+#jnCatalog{
+    width: 177px;
+    margin-top: 10px;
+    border: 1px #2a2a2a solid;
+    padding-bottom: 20px;
+}
+#jnCatalog h2{
+    background-color: #3f589a;
+    width: 127px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-left: 50px;
+}
+#jnCatalog h3{
+    font-size: 14px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+#jnCatalog ul{
+    width: 52px;
+    font-size: 13px;
+	margin-top: 5px;
+}
+#jnCatalog li{
+	margin-top: 5px;
+}
+
+
+
+
+
+.banner,.banner1,.banner2,.banner-1,.banner-2,.banner1-1,.banner2-1,.banner2-2{
+	border: 1px #000000 solid;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.guankan{
+	width: 133px;
+	border: 1px #000000 solid;
+	border-radius: 10px;
+	margin-left: 102px;
+	margin-top: 10px;
+}
+.guankan a{
+	display: block;
+	line-height: 30px;
+	float: left;
+}
+.guankan img{
+	float: left;
+}
+
+
+.banner-nav li,.banner-nav1 li,.banner-nav2 li{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+
+.xuanxiangka li{
+	background-color:#eaeaea;
+	width: 101px;
+    height: 24px;
+    line-height: 24px;
+	text-align: center;
+	border: 1px #000000 solid;
+}
+.xuanxiangka{
+	width: 310px;
+	margin-top: 15px;
+    margin-left: 10px;
+}
+.xuanxiangka div{
+	width: 307px;
+	height: 114px;
+	border: 1px #000000 solid;
+    margin-top: 1px;
+}
+
+
+
+.containt-text{
+	width: 479px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.containt-text p{
+	font-size: 17px;
+	font-family:楷体;
+	margin-top: 8px;
+}
+.containt-nav1 li{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.containt-nav2 li{
+	width: 32px;
+	height: 32px;
+	border: 1px hsla(0,1%,61%,1.00) solid;
+	text-align: center;
+	line-height: 32px;
+	margin-left: 8px;
+	margin-top: 10px;
+}
+.containt-nav3 li{
+	background: url(../images/star-matrix.gif);
+	height: 15px;
+	width: 17px;
+}
+.containt-img{
+	margin-top: 20px;
+}
+
+.containt-nav3 li:hover {background-position:0 -96px;}
+.containt-nav3 li:hover {background-position:0 -112px;}
+.containt-nav3 li:hover {background-position:0 -128px}
+.containt-nav3 li:hover {background-position:0 -144px}
+.containt-nav3 li:hover {background-position:0 -160px}
+
+
+
+
+
+
+/*jQzoom*/
+div.zoomdiv {
+	z-index:	999;
+	position                : absolute;
+	top:0px;
+	left:0px;
+	width                   : 200px;
+	height                  : 200px;
+	background: #ffffff;
+	border:1px solid #CCCCCC;
+	display:none;
+	text-align: center;
+	overflow: hidden;
+}
+div.jqZoomPup {
+	z-index                 : 999;
+	visibility              : hidden;
+	position                : absolute;
+	top:0px;
+	left:0px;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	filter: alpha(Opacity=50);
+}
+
+
+
+
+.containt-nav3 .nav3-1{
+    background-position: 0px 0px;
+}
+#nav3-1.selected{
+    background-position:0px 16px !important;
+}
+#nav3-2.selected{
+    background-position:0px 16px !important;
+}
+#nav3-3.selected{
+    background-position:0px 16px !important;
+}
+#nav3-4.selected{
+    background-position:0px 16px !important;
+}
+#nav3-5.selected{
+    background-position:0px 16px !important;
+}
+
+
+
+
