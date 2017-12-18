@@ -1,0 +1,439 @@
+@charset "UTF-8";
+/*!
+ * shengbangshenghua
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.clearfix:after, .clearfix:before {
+  content: " ";
+  display: table;
+  clear: both; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+body {
+  font-family: "幼圆";
+  background-color: #f5f8fa; }
+
+.container {
+  width: 1200px;
+  margin: auto; }
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+.text-center {
+  text-align: center; }
+
+.col-3, .col-3 {
+  width: 25%;
+  padding: 0 15px;
+  float: left; }
+
+.col-6 {
+  width: 50%;
+  padding: 0 15px;
+  float: left; }
+
+.col-9 {
+  width: 70%;
+  padding: 0 15px;
+  float: left; }
+
+.col-3 {
+  width: 25%;
+  padding: 0 15px;
+  float: left; }
+
+header {
+  background-color: #3097d1; }
+  header nav {
+    display: flex; }
+    header nav .logo {
+      float: left;
+      padding-top: 20px; }
+    header nav .logo img {
+      width: 85px;
+      height: 23px;
+      display: block; }
+    header nav ul {
+      float: left; }
+    header nav li {
+      float: left;
+      font-size: 18px; }
+      header nav li a {
+        color: #fff;
+        display: block;
+        padding: 20px 30px; }
+        header nav li a.action, header nav li a:hover {
+          background-color: #206d98; }
+
+@media (max-width: 720px) {
+  header nav .logo {
+    float: none;
+    display: inline-block;
+    margin-bottom: 10px; }
+  header nav {
+    text-align: center; }
+  header nav li a {
+    padding: 12px 8px; } }
+
+section {
+  margin-top: 30px;
+  margin-bottom: 100px; }
+  section .dave {
+    position: relative;
+    border: 1px #d3e0e9 solid;
+    padding-bottom: 29px;
+    background-color: #ffffff; }
+    section .dave a {
+      display: block; }
+    section .dave img:nth-of-type(1) {
+      width: 100%;
+      height: 149px; }
+    section .dave .img1 {
+      width: 110px;
+      height: 110px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 60px;
+      border: 1px #000000 solid;
+      background-color: #fff;
+      position: absolute;
+      top: 85px;
+      left: 80px; }
+      section .dave .img1 img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        border: 1px #000 solid; }
+    section .dave h1 {
+      margin-top: 54px;
+      font-size: 20px; }
+    section .dave p {
+      font-size: 16px; }
+  section .about {
+    border: 1px #d3e0e9 solid;
+    margin-top: 30px;
+    padding: 17px 15px 30px 15px;
+    background-color: #ffffff; }
+    section .about h1 {
+      font-size: 20px;
+      margin-bottom: 8px; }
+    section .about p {
+      font-size: 14px;
+      line-height: 1.3em; }
+      section .about p a {
+        color: #30a4dd; }
+  section .photos {
+    border: 1px #d3e0e9 solid;
+    padding: 17px 15px 15px 15px;
+    margin-top: 22px;
+    background-color: #ffffff; }
+    section .photos h1 {
+      font-size: 20px; }
+    section .photos p {
+      margin-bottom: 10px; }
+    section .photos p img:nth-of-type(1) {
+      margin-right: 10px; }
+    section .photos img {
+      width: 117px;
+      height: 118px;
+      display: block;
+      float: left; }
+  section .gamache {
+    padding: 28px 20px 43px 20px;
+    border: 1px #d3e0e9 solid;
+    background-color: #ffffff; }
+    section .gamache img {
+      width: 266px;
+      height: 213px;
+      display: block;
+      float: left; }
+    section .gamache div img:nth-of-type(1) {
+      margin-right: 10px;
+      margin-bottom: 10px; }
+    section .gamache div:nth-of-type(2) {
+      margin-top: 26px; }
+    section .gamache div:nth-of-type(3) {
+      margin-bottom: 30px; }
+    section .gamache h1 {
+      font-size: 20px;
+      float: left; }
+    section .gamache p:nth-of-type(1) {
+      float: right; }
+    section .gamache p:nth-of-type(3) {
+      margin-bottom: 25px; }
+    section .gamache p {
+      font-size: 14px;
+      line-height: 1.3em; }
+    section .gamache a {
+      font-weight: 600; }
+  section .jacob {
+    padding: 28px 20px 43px 20px;
+    border: 1px #d3e0e9 solid;
+    background-color: #ffffff; }
+    section .jacob h1 {
+      font-size: 20px;
+      float: left;
+      margin-bottom: 10px; }
+    section .jacob p:nth-of-type(1) {
+      float: right; }
+    section .jacob p {
+      font-size: 14px;
+      line-height: 1.3em; }
+  section .mark {
+    padding: 28px 20px 43px 20px;
+    border: 1px #d3e0e9 solid;
+    background-color: #ffffff; }
+    section .mark h1 {
+      font-size: 20px;
+      float: left;
+      margin-bottom: 10px; }
+    section .mark p:nth-of-type(1) {
+      float: right; }
+    section .mark p:nth-of-type(2) {
+      margin-bottom: 26px; }
+    section .mark img {
+      width: 100%;
+      margin-bottom: 40px; }
+    section .mark p {
+      font-size: 14px;
+      line-height: 1.3em; }
+    section .mark a {
+      font-weight: 600; }
+  section .sponsored {
+    padding: 18px 15px 15px 15px;
+    border: 1px #d3e0e9 solid;
+    background-color: #ffffff; }
+    section .sponsored h1 {
+      font-size: 20px;
+      margin-bottom: 10px; }
+    section .sponsored img {
+      width: 100%;
+      margin-bottom: 16px; }
+    section .sponsored p {
+      font-size: 14px;
+      line-height: 1.3em; }
+    section .sponsored p:nth-of-type(1) {
+      margin-bottom: 14px; }
+    section .sponsored p:nth-of-type(1) a {
+      font-weight: 600; }
+    section .sponsored p:nth-of-type(2) a {
+      display: block;
+      width: 100px;
+      height: 30px;
+      color: #8788cb;
+      border: 1px #2a88bd solid;
+      border-radius: 5px;
+      text-align: center;
+      line-height: 1.8em; }
+      section .sponsored p:nth-of-type(2) a:hover {
+        background-color: #8788cb;
+        color: #ffffff; }
+  section .likes {
+    padding: 17px 15px 17px 15px;
+    border: 1px #d3e0e9 solid;
+    background-color: #ffffff;
+    margin-top: 30px; }
+    section .likes img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50px; }
+    section .likes h1 {
+      font-size: 20px; }
+    section .likes p:nth-of-type(1) a {
+      font-weight: 600;
+      margin-left: 25px; }
+    section .likes p:nth-of-type(2) a {
+      display: block;
+      width: 90px;
+      height: 30px;
+      color: #8788cb;
+      border: 1px #2a88bd solid;
+      border-radius: 6px;
+      text-align: center;
+      line-height: 1.8em;
+      margin-left: 86px;
+      margin-top: 8px; }
+      section .likes p:nth-of-type(2) a:hover {
+        background-color: #8788cb;
+        color: #ffffff; }
+    section .likes div img, section .likes .div p {
+      float: left; }
+    section .likes div:nth-of-type(1) {
+      margin-bottom: 20px; }
+    section .likes div:nth-of-type(2) {
+      margin-bottom: 25px; }
+    section .likes .likes-text {
+      font-size: 14px;
+      padding: 16px;
+      border-top: 1px #d3e0e9 solid;
+      margin-left: -15px;
+      margin-right: -15px;
+      margin-bottom: -16px;
+      background-color: #f5f8fa; }
+
+footer {
+  padding-top: 56px;
+  padding-bottom: 60px;
+  border-top: 1px #cccccc solid; }
+  footer p {
+    font-size: 14px;
+    text-align: center; }
+  footer a {
+    color: #3097d1; }
+  footer p:nth-of-type(2) {
+    color: #3097d1;
+    margin-top: 22px; }
+  footer p:nth-of-type(2) a {
+    margin-left: 5px; }
+
+@media (max-width: 1200px) {
+  .container {
+    width: 960px; }
+  section .dave .img1 {
+    left: 55px; }
+  section .photos img {
+    width: 87px;
+    height: 87px; }
+  section .gamache img {
+    width: 206px; }
+  section .likes div p {
+    font-size: 14px; }
+  section .likes p:nth-of-type(1) a {
+    margin-left: 0px; } }
+
+@media (max-width: 720px) {
+  .container {
+    width: 320px; }
+  .col-3 {
+    width: 100%; }
+  .col-6 {
+    width: 100%; }
+  header nav li {
+    margin-left: 18px;
+    font-size: 14px; }
+  section .dave .img1 {
+    left: 106px; }
+  section .photos img {
+    width: 138px; }
+  section .gamache img {
+    width: 100%; }
+  section .gamache div img:nth-of-type(2) {
+    margin-bottom: 10px; }
+  section .sponsored {
+    margin-top: 30px; }
+  section .likes p:nth-of-type(1) a {
+    margin-left: 26px; } }
+
+/*--dosc.html--*/
+.banner {
+  background-color: #24729f;
+  padding: 70px 0;
+  margin-bottom: 50px; }
+  .banner h1 {
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 100; }
+  .banner p {
+    width: 800px;
+    font-size: 16px;
+    line-height: 1.3em;
+    color: #ffffff; }
+
+.intro h2 {
+  font-size: 30px;
+  padding-bottom: 16px;
+  border-bottom: 1px #d4dbe0 solid; }
+
+.intro p {
+  line-height: 1.3em;
+  margin: 28px 0; }
+
+.intro-2 ul li {
+  margin-bottom: 12px; }
+  .intro-2 ul li a {
+    color: #000000; }
+  .intro-2 ul li:nth-of-type(1) a {
+    color: #67beee; }
+  .intro-2 ul li:nth-of-type(1) {
+    padding: 5px 19px;
+    border-left: 2px #3097d1 solid;
+    margin-left: -24px; }
+
+@media (max-width: 720px) {
+  .col-9 {
+    width: 100%; }
+  .col-3 {
+    width: 100%; }
+  .banner {
+    text-align: center; }
+  .banner p {
+    width: 320px; }
+  .intro {
+    text-align: center; } }
+
+/*--dosc.html--*/
+/*--profile.html---*/
+.profile-banner {
+  background: url("../img/iceland.jpg");
+  background-size: 100% 100%;
+  padding: 110px 0 176px 0; }
+  .profile-banner img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50px;
+    margin-bottom: 26px; }
+  .profile-banner h2 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 16px; }
+  .profile-banner p {
+    font-size: 16px;
+    color: #ffffff; }
+
+.img {
+  margin-top: 16px;
+  margin-bottom: 75px; }
+  .img img:nth-of-type(1), .img img:nth-of-type(7), .img img:nth-of-type(9), .img img:nth-of-type(15) {
+    width: 405px;
+    height: 254px; }
+  .img img:nth-of-type(2), .img img:nth-of-type(3), .img img:nth-of-type(4), .img img:nth-of-type(5), .img img:nth-of-type(6), .img img:nth-of-type(8), .img img:nth-of-type(10), .img img:nth-of-type(11), .img img:nth-of-type(12), .img img:nth-of-type(13), .img img:nth-of-type(14), .img img:nth-of-type(16) {
+    width: 253px;
+    height: 253px; }
+
+@media (max-width: 1200px) {
+  .img {
+    margin-top: 16px;
+    margin-bottom: 75px; }
+    .img img:nth-of-type(1), .img img:nth-of-type(7), .img img:nth-of-type(9), .img img:nth-of-type(15) {
+      width: 307px;
+      height: 203px; }
+    .img img:nth-of-type(2), .img img:nth-of-type(3), .img img:nth-of-type(4), .img img:nth-of-type(5), .img img:nth-of-type(6), .img img:nth-of-type(8), .img img:nth-of-type(10), .img img:nth-of-type(11), .img img:nth-of-type(12), .img img:nth-of-type(13), .img img:nth-of-type(14), .img img:nth-of-type(16) {
+      width: 203px;
+      height: 203px; } }
+
+@media (max-width: 720px) {
+  .img {
+    margin-top: 16px;
+    margin-bottom: 75px; }
+    .img img:nth-of-type(1), .img img:nth-of-type(7), .img img:nth-of-type(9), .img img:nth-of-type(15) {
+      width: 320px;
+      height: 320px; }
+    .img img:nth-of-type(2), .img img:nth-of-type(3), .img img:nth-of-type(4), .img img:nth-of-type(5), .img img:nth-of-type(6), .img img:nth-of-type(8), .img img:nth-of-type(10), .img img:nth-of-type(11), .img img:nth-of-type(12), .img img:nth-of-type(13), .img img:nth-of-type(14), .img img:nth-of-type(16) {
+      width: 320px;
+      height: 320px; }
+  .profile-banner {
+    padding: 50px 0 70px 0; } }
+
+/*--profile.html---*/
