@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>魅蓝 Note6-魅族商城</title>
+    <meta name="description" content="魅蓝 Note6，最高直降300元，64G版赠199元ME20耳机，正品行货，另有魅蓝 Note6详细介绍、图片、价格、参数、售前咨询等，购买魅蓝 Note6上魅族商城，全场包邮，7天无理由退货，15天换货保障。">
+    <meta name="keywords" content="魅蓝 Note6，魅族，魅族商城">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="//cdn.bootcss.com/Swiper/4.0.7/css/swiper.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body class="xiangqing">
+
+<div class="header clearfix navbar-fixed-top">
+    <a href="shop.html"><i class="fa fa-angle-left"></i></a>
+    <p>商品详情</p>
+    <a href="index.html"><i class="fa fa-home fa-fw"></i></a>
+</div>
+
+<div class="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper" v-for="banne in banner">
+            <div class="swiper-slide"><img :src="banne.img4" alt=""></div>
+            <div class="swiper-slide"><img :src="banne.img5" alt=""></div>
+            <div class="swiper-slide"><img :src="banne.img6" alt=""></div>
+            <div class="swiper-slide"><img :src="banne.img7" alt=""></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-paginatio text-center"></div>
+    </div>
+</div>
+
+<div class="jiaqian">
+    <div v-for="jia in jiaqian">
+        <h3>{{jia.h3}}</h3>
+        <p>{{jia.p1}}</p>
+        <p>{{jia.p2}}</p>
+        <p>{{jia.p3}}</p>
+    </div>
+</div>
+
+<div class="fenqi">
+    <div class="fenqi">
+        <span v-for="fen in fenqi"><img :src="fen.img" alt="">{{fen.p}}</span>
+        <i class="fa fa-angle-right"></i>
+    </div>
+</div>
+
+<div class="yixuan">
+    <span>已选</span>
+    <span>全网通公开版,香槟金,3GB+16GB,官方标配</span>
+    <span>x1</span>
+    <i class="fa fa-angle-right"></i>
+</div>
+
+<div class="peisong">
+    <span>配送</span>
+    <form action="#" method="post">
+        <select name="" id="sheng" onchange="changeShen()">
+            <option value="">请选择</option>
+            <option value="">河北省</option>
+            <option value="">山东省</option>
+            <option value="">山西省</option>
+            <option value="">东北省</option>
+        </select>
+        <select id="city">
+            <option value="">请选择</option>
+        </select>
+    </form>
+    <i class="fa fa-angle-right"></i>
+    <p>本商品由魅族负责发货并提供售后服务</p>
+</div>
+
+<div class="tuijian">
+    <h5>相关推荐</h5>
+    <div class="swiper-containe">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" v-for="tui in tuijian">
+                <img :src="tui.img" alt="">
+                <a href="" name="001" style="width: 100%;height: 1px;display: block"></a>
+                <a href="" name="002" style="width: 100%;height: 1px;display: block"></a>
+                <a href="" name="003" style="width: 100%;height: 1px;display: block"></a>
+                <p>{{tui.p1}}</p>
+                <p>{{tui.p2}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="xuanxiangka">
+    <ul class="clearfix">
+        <li class="selected"><a class="btn btn-default" role="button" href="#001">图文详情</a></li>
+        <li><a class="btn btn-default" role="button" href="#002">规格参数</a></li>
+        <li><a class="btn btn-default" role="button" href="#003">常见问题</a></li>
+    </ul>
+    <div class="xuanxuangka-1 div1">
+        <img v-for="xu1 in xuan1" :src="xu1.img" alt="">
+    </div>
+    <div class="xuanxiangka-2 div1">
+
+        <table>
+            <tr v-for="xu2 in xuan2" :class="xu2.class">
+                <th colspan="2">{{xu2.th}}</th>
+                <td v-html="xu2.td"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="xuanxiangka-3 div1">
+        <div v-for="xu3 in xuan3">
+            <p>{{xu3.p}}</p>
+            <span v-html="xu3.span"></span>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer navbar-fixed-bottom">
+    <div>
+        <i class="fa fa-headphones"></i>
+        <p>客服</p>
+    </div>
+    <div>
+        <i class="fa fa-star-o"></i>
+        <p>收藏</p>
+    </div>
+    <div>
+        <i class="fa fa-shopping-cart"></i>
+        <p>购物车</p>
+    </div>
+    <div>
+        <a href="">加入购物车</a>
+    </div>
+    <div>
+        <a href="">立即购买</a>
+    </div>
+</div>
+
+<div class="dingbu">
+    <img src="img/dingbu.png" alt="">
+</div>
+
+
+<!-- JavaScript -->
+<script src="//cdn.bootcss.com/vue/2.5.9/vue.min.js"></script>
+<script src="//cdn.bootcss.com/Swiper/4.0.7/js/swiper.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>
